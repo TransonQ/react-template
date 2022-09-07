@@ -61,6 +61,12 @@ npm i @commitlint/config-conventional @commitlint/cli -D
 echo {}> .commitlintrc
 ```
 
+`最后将Commitlint添加到钩子`
+
+```
+npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
+```
+
 `.commitlintrc`
 
 ```json
