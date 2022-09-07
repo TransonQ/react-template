@@ -56,5 +56,19 @@ npx husky add .husky/pre-commit "npm run lint"
 
 为什么需要 Commitlint，除了在后续的生成 changelog 文件和语义发版中需要提取 commit 中的信息，也利于其他同学分析你提交的代码，所以我们要约定 commit 的规范。
 
+```bash
+npm i @commitlint/config-conventional @commitlint/cli -D
+echo {}> .commitlintrc
+```
+
+`.commitlintrc`
+
+```json
+{
+  "extends": [
+    "@commitlint/config-conventional"
+  ]
+}
+```
 
 [前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
