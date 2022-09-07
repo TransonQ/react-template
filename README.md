@@ -32,4 +32,24 @@ npm i eslint-config-prettier eslint-plugin-prettier -D
 }
 ```
 
+# Husky
+
+```bash
+npm i husky -D
+npx husky install
+```
+
+然后我们需要在每次执行 npm install 时自动启用 husky
+如果你的 npm 版本大于等于 7.1.0
+
+```bash
+npm set-script prepare "husky install"
+```
+
+然后添加一个 lint 钩子
+
+```bash
+npx husky add .husky/pre-commit "npm run lint"
+```
+
 [前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
