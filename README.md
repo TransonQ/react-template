@@ -18,4 +18,18 @@ echo {}> .prettierrc
 npm i eslint-config-prettier eslint-plugin-prettier -D
 ```
 
-[参考链接](https://juejin.cn/post/6971812117993226248)
+# vscode
+
+`.vscode/settings.json`
+
+```
+{
+  "prettier.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true,
+  }
+}
+```
+
+[前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
