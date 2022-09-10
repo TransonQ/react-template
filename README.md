@@ -8,6 +8,7 @@ npx eslint --init
 执行上面命令后会提示一些选项，我们依次选择符合我们项目的配置。
 
 # 集成 Prettier
+eslint管代码质量, prettier管代码格式
 
 ```bash
 npm i prettier -D
