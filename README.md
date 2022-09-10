@@ -81,7 +81,7 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 
 ### Angular 规范说明：
 
-- Commits MUST be prefixed with a type:
+- [Commits MUST be prefixed with a type:](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification)
   - feat：新功能
   - fix：修补 BUG
   - docs：修改文档，比如 README, CHANGELOG, - CONTRIBUTE 等等
