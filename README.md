@@ -8,7 +8,8 @@ npx eslint --init
 执行上面命令后会提示一些选项，我们依次选择符合我们项目的配置。
 
 # 集成 Prettier
-eslint管代码质量, prettier管代码格式
+
+eslint 管代码质量, prettier 管代码格式
 
 ```bash
 npm i prettier -D
@@ -23,7 +24,7 @@ npm i eslint-config-prettier eslint-plugin-prettier -D
 
 `.vscode/settings.json`
 
-```
+```json
 {
   "prettier.enable": true,
   "editor.codeActionsOnSave": {
@@ -90,4 +91,6 @@ ci：自动化流程配置或脚本修改
 chore：非 src 和 test 的修改，发布版本等
 revert：恢复先前的提交
 
-[前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
+> 参考
+>
+> - [前端工程化配置指南](https://juejin.cn/post/6971812117993226248)
