@@ -1,5 +1,7 @@
 # 模板说明
 
+> 总而言之就是: 基于 create-react-app 的加上 commit 检验和 eslint 和规范的 react 项目通用模板
+
 ## ESlint 配置
 
 ```bash
