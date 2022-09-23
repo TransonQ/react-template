@@ -5,6 +5,11 @@
 ```bash
 npm i eslint -D
 npx eslint --init
+
+## 插件 react hooks :
+
+eslint-plugin-react-hooks
+
 ```
 
 执行上面命令后会提示一些选项，我们依次选择符合我们项目的配置。
