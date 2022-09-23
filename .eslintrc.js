@@ -5,9 +5,9 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'standard',
     'prettier',
+    'plugin:react-hooks/recommended',
   ],
   overrides: [],
   parserOptions: {
@@ -25,7 +25,6 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     // 'no-implicit-coercion': 1, // 禁止隐式转换
-
     // 其他参考:
     // 'accessor-pairs': 2, // 定义对象的set存取器属性时，强制定义get
     // // 指定数组的元素之间要以空格隔开(,后面)， never参数：[ 之前和 ] 之后不能带空格，always参数：[ 之前和 ] 之后必须带空格
@@ -204,7 +203,6 @@ module.exports = {
     // 'dot-location': 0, // 对象访问符的位置，换行的时候在行首还是行尾
     // 'dot-notation': [0, { allowKeywords: true }], // 避免不必要的方括号
     // 'eol-last': 0, // 文件以单一的换行符结束
-
     // 'func-style': [0, 'declaration'], // 函数风格，规定只能使用函数声明/函数表达式
     // 'generator-star-spacing': 0, // 生成器函数*的前后空格
     // 'guard-for-in': 0, // for in循环要用if语句过滤
