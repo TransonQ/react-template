@@ -55,6 +55,8 @@ npx husky install
 
 ```bash
 npm set-script prepare "husky install"
+# npm 8+ 用下面这个
+npm pkg set scripts.prepare="husky install"
 ```
 
 然后添加一个 lint 钩子
